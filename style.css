@@ -188,3 +188,49 @@ hero, .sign-up {
 	text-align: right;
   margin-right: 50px;;
 }
+
+.callToAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callToAction .square {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 50px;
+  width: 800px;
+  padding: 20px;
+}
+
+.callToAction .square .text {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+
+.callToAction .square button {
+  border: 3px solid #e5e7eb;
+}
+
+.callToAction .square .button-container {
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-shrink: 0;
+}
+
+
+.callToAction .square h3 {
+  margin-top: 40px;
+}
+
+.callToAction .square h3, .callToAction .square p {
+  margin-left: 70px;
+  text-align: left;
+  color:#E5E7EB;
+  max-height: 100px;
+}
