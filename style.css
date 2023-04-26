@@ -28,7 +28,7 @@ header {
 }
 
 .menu li {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 .menu li a {
@@ -168,7 +168,9 @@ hero, .sign-up {
 .quote {
   display: flex;
   flex-direction: column;
-	background-color: #E5E7EB;
+	background-color: #cbcbcc;
+  margin-left: -50px;
+  margin-right:-50px;
 }
 
 .quote p {
@@ -176,9 +178,13 @@ hero, .sign-up {
 	font-size: 24px;
   font-weight: lighter;
   font-family: 'Roboto', arial;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
 }
 
 .quote b {
 	font-family: 'Roboto', arial;
 	text-align: right;
+  margin-right: 50px;;
 }
